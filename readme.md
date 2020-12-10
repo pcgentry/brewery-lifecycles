@@ -23,6 +23,5 @@
 
 ## Data Collection
 
-The data was collected directly from the brewery point of sale software.
+The data was collected directly from a real world point of sale software. It contained sensitive and personally identifiable information, so before I could publish the data I needed to replace names with computer generated names, as well as remove things like credit card info before even being able to consider exploring the data much or putting anything up on github that might be publicly visible.
 
-All data was screened and scrubbed for personally identifiable information.
