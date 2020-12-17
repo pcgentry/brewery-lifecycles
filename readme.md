@@ -22,6 +22,16 @@
 - Ultimately, the reason I chose to work on this is that the study of specialty brews was both interesting to me and it seemed like a great place to make an impact for this business.
 
 ## Data Collection
-
 The data was collected directly from a real world point of sale software. It contained sensitive and personally identifiable information, so before I could publish the data I needed to replace names with computer generated names, as well as remove things like credit card info before even being able to consider exploring the data much or putting anything up on github that might be publicly visible.
 
+I also spent some time cleaning the data. Concatenating seperate files of the same type, joining data sets that I knew I wanted relationships for, and removing extraneous data that would get in the way later.
+
+## Purchases 
+Purchases were categorized by line item and I wanted to look specifically at something that could have a positive impact on the business, so I chose to focus on what the pos
+
+## Categorization
+I split the brews into two categories.
+- "Major" sets that were more or less on tap all the time or already have a place in rotation.
+- "Minor" sets that were single runs or short runs. 
+
+I split that data where I saw the first patterns of short term recipes showing up. That was at 710 beers sold. In the "Minor" group there was also the need to filter out beverages that were sourced from other companies and would not be expected to fit the same pattern as a specialty brew from this brewery.
