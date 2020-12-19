@@ -35,3 +35,17 @@ I split the brews into two categories.
 - "Minor" sets that were single runs or short runs. 
 
 I split that data where I saw the first patterns of short term recipes showing up. That was at 710 beers sold. In the "Minor" group there was also the need to filter out beverages that were sourced from other companies and would not be expected to fit the same pattern as a specialty brew from this brewery.
+
+## Exploration of approaches
+In an attempt to narrow down a way to find indicators that a particular beer was a great success, I tried a lot of approaches.
+
+Each beer was graphed on it's own and the graphs were compared in several ways:
+- the eyeball method
+- linear regression
+- poisson distributions
+- A/B splitting with Poisson distribution
+
+## Conclusion
+In the end I found a lot of chaos in the data. My ending thoughts are that answering a question such as this is either not possible with the data I have or with the skills I have.
+
+
