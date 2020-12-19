@@ -45,6 +45,27 @@ Each beer was graphed on it's own and the graphs were compared in several ways:
 - poisson distributions
 - A/B splitting with Poisson distribution
 
+## I looked at the timeline
+![test](images/sales_timeline.jpg)
+
+## The lifecycle of a typical brew
+![test](images/eol_hist.jpg)
+
+## The sales characteristics for each
+![test](images/sales_series.jpg)
+
+## Stacked into ordinal days (starting at 0)
+![test](images/sales_stacked.jpg)
+
+## Can we look for improvement?
+![test](images/a_b_trend.jpg)
+
+## Poisson Distributions
+![test](images/poisson_shadow.jpg)
+
+## Is it even significant?
+![test](images/poisson_crits.jpg)
+
 ## Conclusion
 In the end I found a lot of chaos in the data. My ending thoughts are that answering a question such as this is either not possible with the data I have or with the skills I have.
 
