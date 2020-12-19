@@ -48,22 +48,40 @@ Each beer was graphed on it's own and the graphs were compared in several ways:
 ## I looked at the timeline
 ![test](images/sales_timeline.jpg)
 
-## The lifecycle of a typical brew
+## The lifecycle. How many days on tap?
+This is a histogram of the lifecycle of a beer from release to end of life. From this we can see most beers falling between 20-50 days on tap, and some run all the way up to 100.
 ![test](images/eol_hist.jpg)
 
 ## The sales characteristics for each
+I plotted each individual beers sales onto a chart to see what they were generally shaped like.
 ![test](images/sales_series.jpg)
 
 ## Stacked into ordinal days (starting at 0)
+Since the data was sparse, it seemed worthwhile to create a stacked graph containing all the series to more directly compare them, along with the larger trend of beers from day 0.
+
+What I saw was that there appears to be an overall trend downwards, and other than that the comparison looks to be fairly chaotic.
+
 ![test](images/sales_stacked.jpg)
 
 ## Can we look for improvement?
+So in the next step I simplified the previous chart to only two points. An accumulation of the first part of a beers life, with the second part. I just wanted to see if there was a trend.
+
 ![test](images/a_b_trend.jpg)
 
 ## Poisson Distributions
+This sales data was by nature a good fit for Poisson. So I graphed the Poisson distribution for each sale series. 
+
+I graphed each day where sales were made with an alpha of .1. This creates a shadow of a graph that changes and moves over time. I wanted a visual of what happens over time with each data set.
+
+The final Poisson distribution is in darker blue.
+
 ![test](images/poisson_shadow.jpg)
 
 ## Is it even significant?
+Finally I split the beers into an A/B test where the first half of the lifecycle represented "A" and the second half of the life represented "B"
+
+I calculated critical values and means for the hypothesis and there was very little reason to believe that there were any significant upward trends to be found whatesoever.
+
 ![test](images/poisson_crits.jpg)
 
 ## Conclusion
